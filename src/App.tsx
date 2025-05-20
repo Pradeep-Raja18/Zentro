@@ -6,7 +6,7 @@ import Contact from './Pages/Contact'
 function App() {
   return (
     <>
-    <BrowserRouter basename='/Zentro/'>
+    <BrowserRouter basename='/Zentro'>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
